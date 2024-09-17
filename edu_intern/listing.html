@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link href="listing.css" type="text/css" rel="stylesheet">
+    </head>
+        <body>
+           <!--sections--> 
+           <!--header section -->
+           <header>
+                <div id="Brand">
+                       <marquee> Zomato! </marquee>   
+                </div>
+                <div id="facebookicon">
+                        <a href=""><img src="images/facebook.png"   alt="facebook icon" class="sociallogo"/></a>
+                        <a href=""><img src="images/insta.png"   alt="insta icon" class="sociallogo"/></a>
+                        <a href=""><img src="images/youtube1.png"   alt="youtube icon" class="sociallogo"/></a>
+                </div>
+           </header>
+
+           
+                <div id="content">
+                <div id="filter">
+                        <h3 id="pfilter">Filter</h3>
+                        <hr>
+                        <span>food filter</span>
+                        <input type="radio" class="foodfilter" name="costfilter">All<br>
+                        <input type="radio" class="foodfilter" name="costfilter">North Indian<br>
+                        <input type="radio" class="foodfilter" name="costfilter">South Indian<br>
+                        <input type="radio" class="foodfilter" name="costfilter">Chinese<br>
+                        <input type="radio" class="foodfilter" name="costfilter">Fast Food<br>
+                        <input type="radio" class="foodfilter" name="costfilter">Street Food<br>
+                        
+                        <span>cost filter</span>
+                        <input type="radio" class="foodfilter" name="foodfilter">All<br>
+                        <input type="radio" class="foodfilter" name="foodfilter">below 99<br>
+                        <input type="radio" class="foodfilter" name="foodfilter">100-199<br>
+                        <input type="radio" class="foodfilter" name="foodfilter">200-299<br>
+                        <input type="radio" class="foodfilter" name="foodfilter">300-399<br>
+                        <input type="radio" class="foodfilter" name="foodfilter">above 400<br>
+                </div>
+                
+                <div id="prodcontent">
+                       <div class="prodetailss">
+                                <img src="images/c.jpeg" alt="foodimage" class="foodimage">
+                        
+                        <h2 class="fooddetails">THE CHATS PALACE</h2>
+                        <h4 class="fooddetailss">South Indian Chats,<br>here is the delicious home food for you<h5 class="h5">Starting from just 99 INR</h5></h4>
+                        <button class="o" onclick="bill()">Order Now</button>
+                        </div>
+                        <div class="prodetailss">
+                                <img src="images/food.jfif" alt="foodimage" class="foodimage">
+                        
+                        <h2 class="fooddetails">THE FOOD BOX</h2>
+                        <h4 class="fooddetailss">IDLI VADA,<br>here is the delicious home food for you  <h5 class="h5">Starting from just 99 INR</h5></h4>
+                        <button class="o" onclick="bill()">Order Now</button>
+                        </div>
+                        <div class="prodetailss">
+                                <img src="images/food1.jfif" alt="foodimage" class="foodimage">
+                        
+                        <h2 class="fooddetails">THE FOOD PALACE</h2>
+                        <h4 class="fooddetailss">order now get it with in 10mins,<br>delicious food from our kitchen to your home<h5 class="h5">Starting from just 99 INR</h5></h4>
+                        
+                        <button class="o" onclick="bill()">Order Now</button>
+                        </div>
+                </div>
+                </div>
+                       
+                 </div>
+                </div>
+                        
+                </div>
+                <div id="new">
+
+                </div>
+
+          
+           
+           <!--footer-->
+        <footer id="foottext">
+                <hr></hr>
+                <p id="footertext">&copy Zomato India.pvt limited</p>
+                <div class="footerdiv">
+                        <span><ul>
+                                <li>About us</li>
+                                <li>Contact Us</li>
+                        </ul></span>
+                
+                </div>
+                <div class="footerdiv">
+                        <span>  <ul>
+                                <li>About us</li>
+                                <li>Contact Us</li>
+                        </ul></span>
+                
+                </div>
+                <div class="footerdiv noborder">
+                        <span><ul>
+                                <li>About us</li>
+                                <li>Contact Us</li>
+                        </ul><span></span>
+                
+                </div>
+                <a href=""><img class="footicon" src="images/facebook.png"   alt="facebook icon"/></a>
+                <a href=""><img class="footicon" src="images/insta.png"   alt="insta icon" class=""/></a>
+                <a href=""><img class="footicon" src="images/youtube1.png"   alt="youtube icon" class=""/></a>
+         <div id="endtext"><marquee>Thank You for Visiting Us! visit again :)</marquee></div> 
+        </footer>
+        <script>
+                function bill(){
+                        var x = window.prompt("enter quantity");
+                        window.alert("please pay rs "+x*99 + " while reciving you order");
+                        window.location.href = 'order.html';
+                }
+        </script>
+        </body>
+    
+</html>

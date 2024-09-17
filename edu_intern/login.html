@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            background: #fff;
+            padding: 2em;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            box-sizing: border-box;
+        }
+        .login-container h2 {
+            margin-bottom: 1em;
+            font-size: 24px;
+            text-align: center;
+        }
+        .login-container label {
+            display: block;
+            margin-bottom: 0.5em;
+            font-weight: bold;
+        }
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 0.8em;
+            margin-bottom: 1em;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .login-container button {
+            width: 100%;
+            padding: 0.8em;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .login-container button:hover {
+            background-color: #0056b3;
+        }
+        .login-container .error {
+            color: #ff0000;
+            font-size: 14px;
+            margin-bottom: 1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <div class="error" id="error-message"></div>
+        <form id="login-form">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('login-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent form submission for demo
+            
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+
+            // Example validation (replace with your actual validation logic)
+            if (username === 'user' || password === '1234') {
+                document.getElementById('error-message').textContent = 'Both fields are required.';
+                return;
+            }
+
+            // Normally, you would send a request to the server here
+            console.log('Username:', username);
+            console.log('Password:', password);
+            document.getElementById('error-message').textContent = '';
+            alert('Login successful!');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+body{
+    margin: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI';
+    font-weight: bold;
+
+}
+a{
+    text-decoration: none;
+}
+/*header section*/
+header{
+    height: 60px;
+    background-color: red;
+}
+
+.o{
+
+    margin-left: 20%;
+    width: 100px;
+    height: 40px;
+    color:red;
+    background-color: greenyellow;
+    border: none;
+    border-radius: 58%;
+}
+#Brand{
+
+    color: white;
+    float: left;
+    font-size: 30px;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+.facebookicon{
+    width: 50px;
+    height: 50px;
+   
+}
+.sociallogo{
+    width: 50px;
+    height: 50px;
+    float: right;
+    text-decoration: none;
+    margin-right: 10px;
+    
+}
+
+#content{
+    width: 85%;
+    margin-left: 7.5%;
+    margin-top:3%;
+    display: inline-block;
+}
+#filter{
+    height: 500px;
+    width: 20%;
+    border: 3px solid rgb(216, 222, 216);
+    float: left;
+
+}
+#prodcontent{
+    height: 700px;
+    width: 70%;
+    margin-left: 8%;
+    float: left;
+    display: inline;
+    
+}
+    #pfilter{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+span{        
+    text-align: center;
+    display: block;
+    margin: 4%;
+
+    }
+.foodfilter{
+    margin: 4px;
+}
+.prodetailss{
+    box-shadow: 10px 20px 10px rgb(209, 11, 116);
+    width: 100%;
+    height: 30%;
+    margin-top:2.7%;
+}
+
+.foodimage{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.fooddetails{
+    color: red;
+    margin-top:20px;
+    margin-left: 30px;
+    text-align: center;
+}
+.fooddetailss{
+    color: rgb(51, 9, 175);
+    margin-top:20px;
+    margin-left: 30px;
+    text-align: center;
+}
+.foodbtn{
+    color: red;
+    background-color: greenyellow;
+    text-decoration: bold;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.h5{
+    color: green;
+    text-align: center;
+
+}
+    
+
+
+
+
+#foottext{
+    height: 140px;
+    margin-top: 2%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+.footerdiv{
+    float: left;
+    width: 400px;
+    border-right: 2px solid white;
+}
+#footertext{
+    font-size: 20px;
+    color: white;
+    
+}
+ul{
+    list-style: none;
+    color: white;
+}
+.noborder{
+    border:none;
+}
+.footicon{
+    width: 50px;
+    height: 50px;
+    float: center;
+    text-decoration: none;
+    margin-right: 10px;
+}
+#endtext{
+    color: rgb(21, 222, 58);
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+

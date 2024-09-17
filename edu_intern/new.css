@@ -1,0 +1,605 @@
+body{
+    margin: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI';
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+/*header section*/
+header{
+    height: 60px;
+    background-color: body{
+    margin: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI';
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+/*header section*/
+header{
+    height: 60px;
+    background-color: #0f1111;
+}
+
+
+#Brand{
+
+    color: white;
+    float: left;
+    font-size: 30px;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+.facebookicon{
+    width: 50px;
+    height: 50px;
+   
+}
+.sociallogo{
+    width: 50px;
+    height: 50px;
+    float: right;
+    text-decoration: none;
+    margin-right: 10px;
+    
+}
+/*Search Section*/
+#Search{
+    background-image: url("images/food3.jfif");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+}
+#logo{
+    width: 90px;
+    height: 100x;
+    background-color: white;
+    font-size: 50px;
+    border-radius: 60%;
+    margin-left: 46%;
+    position: absolute;
+    margin-top: 20%;
+    color: #9c27b0;
+    font-weight: bold;
+}
+#logo > span{
+    margin-top: 54px;
+    margin-left: 25px;
+    
+
+}
+#heading{
+   font-size: 60px;
+   margin-left: 21%;
+   margin-top: 26%;
+   position: absolute;
+   color:rgb(143, 8, 215);
+   font-weight: bold;
+}
+#dropdown{
+    height: 60px;
+    width: 50%;
+    margin-left: 28%;
+    margin-top: 36%;
+    position: absolute;
+}
+select{
+    height: 60px;
+    width: 40%;
+    text-align: center;
+    font-size: 20px;
+    background-color:hotpink
+}
+#restselect{
+    width: 50%;
+}
+/*Quick Search Section*/
+#QuickSearch{
+    
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    display: inline-block;
+
+}
+#quickheading{
+    color: #9c27b0;
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    
+}
+#quicksubheading{
+    font-size: 20px;
+    color:black;
+    line-height: 3;
+    font-weight: bold;
+    margin-left: 2%;
+}
+.tilecontainer{
+    height: 180px;
+    width:30%;
+    box-shadow: 10px 20px 10px #444345;
+    float: left;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+.tilecomponent1{
+    width:80%;
+    height: 100%;
+    float: left;
+    align-items: center;
+}
+.tilecomponent2{
+    width: 45%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 20%;
+}
+.tileimage{
+    width: 60%;
+    height: 100%;
+    
+    box-shadow: #9c27b0;
+    float: left;
+    display: inline;
+}
+.spantag{
+    text-align: center;
+    color: rgb(202, 11, 97);
+    margin-top: 8px;
+    font-size: 20px;
+    
+}
+.spantag2{
+    color: green;
+    text-align: center;
+    margin-top: 10%;
+    
+}
+
+
+
+    
+#foottext{
+    height: 140px;
+    margin-top: 2%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+.footerdiv{
+    float: left;
+    width: 400px;
+    border-right: 2px solid white;
+}
+#footertext{
+    font-size: 20px;
+    color: white;
+    
+}
+ul{
+    list-style: none;
+    color: white;
+}
+.noborder{
+    border:none;
+}
+.footicon{
+    width: 50px;
+    height: 50px;
+    float: center;
+    text-decoration: none;
+    margin-right: 10px;
+}
+#endtext{
+    color: rgb(21, 222, 58);
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+@media screen and (max-width:1600px){
+    body{
+        background-color: aqua;
+    }
+    #endtext{
+        color: rgb(248, 18, 129);
+        font-size: 20px;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+}
+@media screen and (max-width:1400px){
+    body{
+        background-color: rgb(95, 230, 171);
+    }
+
+}
+@media screen and (max-width:1200px){
+    body{
+        background-color: rgb(150, 140, 241);
+    }
+    
+    header{
+        height: 60px;
+        width: 45%;
+        background-color: red;
+    }
+
+}
+@media screen and (max-width:1000px){
+    body{
+        background-color: rgb(239, 148, 204);
+    }
+    .tilecontainer{
+        height: 180px;
+        width:45%;
+        box-shadow: 10px 20px 10px #444345;
+        float: left;
+        margin-top: 3%;
+        margin-left: 2%;
+
+}
+@media screen and (max-width:800px){
+    body{
+        background-color: rgb(245, 180, 110);
+    }
+@media screen and (max-width:700px){
+    body{
+        background-color: rgb(245, 180, 110);
+    }
+    .tilecontainer{
+        height: 180px;
+        width:55%;
+        box-shadow: 10px 20px 10px #444345;
+        float: left;
+        margin-top: 3%;
+        margin-left: 2%;
+
+
+}
+@media screen and (max-width:600px){
+    body{
+        background-color: rgb(235, 129, 129);
+    }
+    .tilecontainer{
+        height: 180px;
+        width:60%;
+        box-shadow: 10px 20px 10px #444345;
+        float: left;
+        margin-top: 3%;
+        margin-left: 2%;
+
+}
+@media screen and (max-width:400px){
+    body{
+        background-color: rgb(172, 239, 14);
+    }
+
+}
+@media screen and (max-width:300px){
+    body{
+        background-color: rgb(54, 118, 118);
+    }
+
+}
+@media screen and (max-width:500px){
+    body{
+        background-color: rgb(123, 113, 116);
+    }
+    
+    height: 180px;
+    width:86%;
+    box-shadow: 10px 20px 10px #444345;
+    float: left;
+    margin-top: 3%;
+    margin-left: 2%;
+
+}
+@media screen and (max-width:450px){
+    body{
+        background-color: rgb(243, 232, 236);
+    }
+    
+    height: 180px;
+    width:85%;
+    box-shadow: 10px 20px 10px #444345;
+    float: left;
+    margin-top: 3%;
+    margin-left: 2%;
+
+};
+}
+
+
+#Brand{
+
+    color: white;
+    float: left;
+    font-size: 30px;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+.facebookicon{
+    width: 50px;
+    height: 50px;
+   
+}
+.sociallogo{
+    width: 50px;
+    height: 50px;
+    float: right;
+    text-decoration: none;
+    margin-right: 10px;
+    
+}
+/*Search Section*/
+#Search{
+    background-image: url("images/food3.jfif");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+}
+#logo{
+    width: 90px;
+    height: 100x;
+    background-color: white;
+    font-size: 50px;
+    border-radius: 60%;
+    margin-left: 46%;
+    position: absolute;
+    margin-top: 20%;
+    color: #9c27b0;
+    font-weight: bold;
+}
+#logo > span{
+    margin-top: 54px;
+    margin-left: 25px;
+    
+
+}
+#heading{
+   font-size: 60px;
+   margin-left: 21%;
+   margin-top: 26%;
+   position: absolute;
+   color:rgb(143, 8, 215);
+   font-weight: bold;
+}
+#dropdown{
+    height: 60px;
+    width: 50%;
+    margin-left: 28%;
+    margin-top: 36%;
+    position: absolute;
+}
+select{
+    height: 60px;
+    width: 40%;
+    text-align: center;
+    font-size: 20px;
+    background-color:hotpink
+}
+#restselect{
+    width: 50%;
+}
+/*Quick Search Section*/
+#QuickSearch{
+    
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    display: inline-block;
+
+}
+#quickheading{
+    color: #9c27b0;
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    
+}
+#quicksubheading{
+    font-size: 20px;
+    color:black;
+    line-height: 3;
+    font-weight: bold;
+    margin-left: 2%;
+}
+.tilecontainer{
+    height: 180px;
+    width:30%;
+    box-shadow: 10px 20px 10px #444345;
+    float: left;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+.tilecomponent1{
+    width:80%;
+    height: 100%;
+    float: left;
+    align-items: center;
+}
+.tilecomponent2{
+    width: 45%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 20%;
+}
+.tileimage{
+    width: 60%;
+    height: 100%;
+    
+    box-shadow: #9c27b0;
+    float: left;
+    display: inline;
+}
+.spantag{
+    text-align: center;
+    color: rgb(202, 11, 97);
+    margin-top: 8px;
+    font-size: 20px;
+    
+}
+.spantag2{
+    color: green;
+    text-align: center;
+    margin-top: 10%;
+    
+}
+
+
+
+    
+#foottext{
+    height: 140px;
+    margin-top: 2%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+.footerdiv{
+    float: left;
+    width: 400px;
+    border-right: 2px solid white;
+}
+#footertext{
+    font-size: 20px;
+    color: white;
+    
+}
+ul{
+    list-style: none;
+    color: white;
+}
+.noborder{
+    border:none;
+}
+.footicon{
+    width: 50px;
+    height: 50px;
+    float: center;
+    text-decoration: none;
+    margin-right: 10px;
+}
+#endtext{
+    color: rgb(21, 222, 58);
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+@media screen and (max-width:1600px){
+    body{
+        background-color: aqua;
+    }
+    #endtext{
+        color: rgb(248, 18, 129);
+        font-size: 20px;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+}
+@media screen and (max-width:1400px){
+    body{
+        background-color: rgb(95, 230, 171);
+    }
+
+}
+@media screen and (max-width:1200px){
+    body{
+        background-color: rgb(150, 140, 241);
+    }
+    
+    header{
+        height: 60px;
+        width: 45%;
+        background-color: red;
+    }
+
+}
+@media screen and (max-width:1000px){
+    body{
+        background-color: rgb(239, 148, 204);
+    }
+    .tilecontainer{
+        height: 180px;
+        width:45%;
+        box-shadow: 10px 20px 10px #444345;
+        float: left;
+        margin-top: 3%;
+        margin-left: 2%;
+
+}
+@media screen and (max-width:800px){
+    body{
+        background-color: rgb(245, 180, 110);
+    }
+@media screen and (max-width:700px){
+    body{
+        background-color: rgb(245, 180, 110);
+    }
+    .tilecontainer{
+        height: 180px;
+        width:55%;
+        box-shadow: 10px 20px 10px #444345;
+        float: left;
+        margin-top: 3%;
+        margin-left: 2%;
+
+
+}
+@media screen and (max-width:600px){
+    body{
+        background-color: rgb(235, 129, 129);
+    }
+    .tilecontainer{
+        height: 180px;
+        width:60%;
+        box-shadow: 10px 20px 10px #444345;
+        float: left;
+        margin-top: 3%;
+        margin-left: 2%;
+
+}
+@media screen and (max-width:400px){
+    body{
+        background-color: rgb(172, 239, 14);
+    }
+
+}
+@media screen and (max-width:300px){
+    body{
+        background-color: rgb(54, 118, 118);
+    }
+
+}
+@media screen and (max-width:500px){
+    body{
+        background-color: rgb(123, 113, 116);
+    }
+    
+    height: 180px;
+    width:86%;
+    box-shadow: 10px 20px 10px #444345;
+    float: left;
+    margin-top: 3%;
+    margin-left: 2%;
+
+}
+@media screen and (max-width:450px){
+    body{
+        background-color: rgb(243, 232, 236);
+    }
+    
+    height: 180px;
+    width:85%;
+    box-shadow: 10px 20px 10px #444345;
+    float: left;
+    margin-top: 3%;
+    margin-left: 2%;
+
+}
